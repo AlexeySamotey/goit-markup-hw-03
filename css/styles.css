@@ -1,0 +1,213 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --effect-color: #ffffff;
+  --title-text-color: #757575;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-header {
+  color: #000000;
+}
+.logo-footer {
+  color: var(--effect-color);
+}
+
+/* header + navigation */
+header {
+  background-color: var(--effect-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact-nav .link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+/*  main header */
+.header-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--effect-color);
+}
+.header {
+  background-image: url(../img/Header.jpg);
+  color: var(--effect-color);
+}
+.button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  color: var(--effect-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: absolute;
+  height: 50px;
+  width: 200px;
+}
+/* main section */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.function {
+  visibility: hidden;
+}
+.features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-item {
+  line-height: 1.71;
+  color: var(--title-text-color);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--effect-color);
+}
+.team-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team {
+  background: #f5f4fa;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+.social-link a:hover,
+.social-link a:focus {
+  background: var(--accent-color);
+  color: var(--effect-color);
+}
+.clients a:hover,
+.clients a:focus {
+  background: var(--accent-color);
+  color: var(--effect-color);
+}
+/* footer */
+footer {
+  background: #2f303a;
+  color: var(--effect-color);
+}
+.copyright {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+.footer-item {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+address {
+  font-style: normal;
+}
+/* portfolio */
+/* buttons */
+.btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.btn:hover,
+.btn:focus {
+  background: var(--accent-color);
+  color: var(--effect-color);
+}
+/* projects */
+.projects-title {
+  visibility: hidden;
+}
+.project-item {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--title-text-color);
+}
+.project-link:hover,
+.project-link:focus {
+  background: rgba(33, 150, 243, 0.9);
+  color: #ffffff;
+}
