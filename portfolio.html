@@ -12,23 +12,29 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="site-header">
+      <nav class="container site-header-content">
         <a class="logo" href="./index.html"
           >Web <span class="logo-header">Studio</span></a
         >
-        <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+        <ul class="list site-nav">
+          <li class="site-nav-item">
+            <a href="./index.html" class="link">Студия</a>
+          </li>
+          <li class="site-nav-item">
+            <a href="./portfolio.html" class="link current">Портфолио</a>
+          </li>
+          <li class="site-nav-item"><a href="" class="link">Контакты</a></li>
         </ul>
-        <ul class="contact-nav">
-          <li>
+        <ul class="list contact-nav">
+          <li class="site-nav-contact-item">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
+          <li class="site-nav-contact-item">
+            <a class="link" href="tel:380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -42,9 +48,10 @@
           <button class="btn" type="button">Маркетинг</button>
         </form>
         <h1 class="projects-title">Проекты</h1>
-        <ul>
+        <ul class="projects-scroll">
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project1.jpg" alt="our people" />
               <h2 class="project-item">Технокряк</h2>
               <p class="project-type">Веб-сайт</p>
               <p>
@@ -52,11 +59,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project1.jpg" alt="our people"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project2.jpg" alt="basketball duel" />
               <h2 class="project-item">Постер New Orlean vs Golden Star</h2>
               <p class="project-type">Дизайн</p>
               <p>
@@ -64,11 +71,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project2.jpg" alt="basketball duel"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project3.jpg" alt="restaurant logo" />
               <h2 class="project-item">Ресторан Seafood</h2>
               <p class="project-type">Приложение</p>
               <p>
@@ -76,11 +83,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project3.jpg" alt="restaurant logo"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project4.jpg" alt="headphones" />
               <h2 class="project-item">Проект Prime</h2>
               <p class="project-type">Маркетинг</p>
               <p>
@@ -88,11 +95,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project4.jpg" alt="headphones"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project5.jpg" alt="two boxes" />
               <h2 class="project-item">Проект Boxes</h2>
               <p class="project-type">Приложение</p>
               <p>
@@ -100,11 +107,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project5.jpg" alt="two boxes"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project6.jpg" alt="monitor apple" />
               <h2 class="project-item">Inspiration has no Borders</h2>
               <p class="project-type">Веб-сайт</p>
               <p>
@@ -112,11 +119,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project6.jpg" alt="monitor apple"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project7.jpg" alt="book" />
               <h2 class="project-item">Издание Limited Edition</h2>
               <p class="project-type">Дизайн</p>
               <p>
@@ -124,11 +131,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project7.jpg" alt="book"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project8.jpg" alt="label" />
               <h2 class="project-item">Проект LAB</h2>
               <p class="project-type">Маркетинг</p>
               <p>
@@ -136,11 +143,11 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project8.jpg" alt="label"
-            /></a>
+            </a>
           </li>
           <li class="project-list">
             <a class="project-link" href="">
+              <img src="./img/project9.jpg" alt="laptop" />
               <h2 class="project-item">Growing Business</h2>
               <p class="project-type">Приложение</p>
               <p>
@@ -148,47 +155,50 @@
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p>
-              <img src="./img/project9.jpg" alt="laptop"
-            /></a>
+            </a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <div>
-        <a class="logo" href="./index.html"
-          >Web <span class="logo-footer">Studio</span></a
-        >
-        <address>
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a class="contacts" href="mailto:info@example.com"
-            >info@example.com</a
+      <div class="footer-container">
+        <div class="address-container">
+          <a class="logo" href="./index.html"
+            >Web <span class="logo-footer">Studio</span></a
           >
-          <a class="contacts" href="tel:380991111111"> +38 099 111 11 11</a>
-        </address>
+          <address class="address-list">
+            г. Киев, пр-т Леси Украинки, 26
+            <a class="contacts" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="contacts" href="tel:380991111111"> +38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="subscribe">
+          <p class="footer-item">присоединяйтесь</p>
+          <ul class="social-link">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="subscribe-form">
+          <p class="footer-item">Подпишитесь на рассылку</p>
+          <form>
+            <input
+              type="text"
+              placeholder="E-mail"
+              name="Email"
+              id="Email-input"
+            />
+            <input type="submit" value="Подписаться" />
+          </form>
+        </div>
       </div>
-      <div>
-        <p class="footer-item">присоединяйтесь</p>
-        <ul class="social-link">
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
-          <li><a href="">LinkedIn</a></li>
-        </ul>
+      <div class="copyright-info">
+        <div class="copyright">2020 | Developed by GoIT Students</div>
       </div>
-      <div>
-        <p class="footer-item">Подпишитесь на рассылку</p>
-        <form>
-          <input
-            type="text"
-            placeholder="E-mail"
-            name="Email"
-            id="Email-input"
-          />
-          <input type="submit" value="Подписаться" />
-        </form>
-      </div>
-      <div class="copyright">2020 | Developed by GoIT Students</div>
     </footer>
   </body>
 </html>
