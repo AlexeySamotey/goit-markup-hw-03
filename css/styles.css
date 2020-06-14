@@ -208,6 +208,8 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  height: 38px;
+  padding: 6px 22px;
 }
 .btn:hover,
 .btn:focus {
@@ -217,6 +219,8 @@ address {
 /* projects */
 .projects-title {
   visibility: hidden;
+  line-height: 0;
+  margin: 0;
 }
 .project-item {
   font-size: 18px;
@@ -235,15 +239,15 @@ address {
   color: #ffffff;
 }
 /* hw 3 */
-h1 {
+.header h1 {
   margin-top: 0;
   margin-bottom: 30px;
 }
-h2 {
+.section h2 {
   margin-top: 0;
   margin-bottom: 50px;
 }
-h3 {
+.section h3 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -352,6 +356,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
+  margin: 0;
 }
 .project-list {
   width: 370px;
@@ -363,7 +368,21 @@ h3 {
 .project-list:nth-child(3n) {
   margin-right: 0;
 }
-
+.project-list:nth-child(n + 4) {
+  margin-top: 30px;
+}
 .projects {
   padding: 94px 215px;
+}
+.mail {
+  margin-right: 30px;
+}
+.button-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 280px;
+}
+.btn:not(:first-child) {
+  margin-left: 8px;
 }
