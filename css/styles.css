@@ -124,12 +124,16 @@ header {
 }
 .function {
   visibility: hidden;
+  line-height: 0;
 }
 .features .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.features {
+  padding-top: 94px;
 }
 .features-item {
   line-height: 1.71;
@@ -247,7 +251,7 @@ address {
   margin-top: 0;
   margin-bottom: 30px;
 }
-.section h2 {
+.section-title {
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -286,9 +290,11 @@ address {
 .section {
   padding: 0 215px 94px;
 }
-.features {
+.features,
+.our-work,
+.our-team,
+.clients {
   display: flex;
-  padding-left: 0;
 }
 .features-list:not(:first-child) {
   margin-left: 30px;
@@ -299,10 +305,6 @@ address {
 .features-logo {
   margin: 25px 100px;
 }
-.our-work {
-  display: flex;
-  padding-left: 0;
-}
 .works-list:not(:first-child) {
   margin-left: 30px;
 }
@@ -310,8 +312,6 @@ address {
   width: 370px;
 }
 .our-team {
-  display: flex;
-  padding-left: 0;
   text-align: center;
 }
 .team-member:not(:first-child) {
@@ -320,20 +320,14 @@ address {
 .team-member {
   width: 270px;
 }
-.social-link {
-  display: flex;
-}
-.clients {
-  display: flex;
-  padding-left: 0;
-}
 .clients-list:not(:first-child) {
   margin-left: 30px;
 }
 .clients-list {
   width: 170px;
 }
-.footer-container {
+.footer-container,
+.social-link {
   display: flex;
 }
 .address-list {
