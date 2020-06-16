@@ -308,17 +308,11 @@ address {
 .works-list:not(:first-child) {
   margin-left: 30px;
 }
-.works-list {
-  width: 370px;
-}
 .our-team {
   text-align: center;
 }
 .team-member:not(:first-child) {
   margin-left: 30px;
-}
-.team-member {
-  width: 270px;
 }
 .clients-list:not(:first-child) {
   margin-left: 30px;
@@ -355,7 +349,7 @@ address {
   margin: 0;
 }
 .project-list {
-  width: 370px;
+  width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   display: flex;
   flex-direction: column;
