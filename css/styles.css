@@ -110,9 +110,10 @@ header {
   border-radius: 4px;
   height: 50px;
   width: 200px;
-  margin-left: 248px;
-  margin-right: 248px;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
+  display: block;
 }
 /* main section */
 .section-title {
@@ -254,7 +255,8 @@ address {
   margin-top: 0;
   margin-bottom: 50px;
 }
-.section h3 {
+.section .title,
+.section .team-list {
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -376,4 +378,7 @@ address {
 }
 .btn:not(:first-child) {
   margin-left: 8px;
+}
+img {
+  display: block;
 }
