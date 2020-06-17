@@ -132,9 +132,6 @@ header {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features {
-  padding-top: 94px;
-}
 .features-item {
   line-height: 1.71;
   color: var(--title-text-color);
@@ -250,6 +247,9 @@ address {
 .header h1 {
   margin-top: 0;
   margin-bottom: 30px;
+}
+.description {
+  padding-top: 94px;
 }
 .section-title {
   margin-top: 0;
