@@ -24,7 +24,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 a {
   text-decoration: none;
@@ -40,7 +40,6 @@ ul {
   line-height: 1.19;
   color: var(--accent-color);
   align-items: center;
-  margin-right: 85px;
 }
 .logo-header {
   color: #000000;
@@ -52,6 +51,7 @@ ul {
 /* header + navigation */
 header {
   background-color: var(--effect-color);
+  border-bottom: 1px solid #ececec;
 }
 .site-nav .link {
   color: var(--primary-text-color);
@@ -93,7 +93,6 @@ header {
   color: var(--effect-color);
   padding: 200px 452px;
   align-items: center;
-  /* margin-bottom: 94px; */
 }
 .button {
   font-family: Roboto, sans-serif;
@@ -156,6 +155,11 @@ header {
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-text-color);
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+.team-card {
+  background-color: #ffffff;
 }
 .social-link a:hover,
 .social-link a:focus {
@@ -183,6 +187,7 @@ footer {
   display: flex;
   padding: 18px 415px 21px;
   align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-item {
   font-weight: 700;
@@ -254,8 +259,7 @@ address {
   margin-top: 0;
   margin-bottom: 50px;
 }
-.section .title,
-.section .team-list {
+.section .title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -280,6 +284,9 @@ address {
 .site-nav-item {
   line-height: 80px;
 }
+.top-icon {
+  margin-right: 85px;
+}
 .list {
   list-style: none;
   margin: 0;
@@ -303,8 +310,10 @@ address {
 .features-item {
   width: 270px;
 }
-.features-logo {
-  margin: 25px 100px;
+.function-logo {
+  background-color: #f5f4fa;
+  padding: 25px 100px;
+  border-radius: 4px;
 }
 .works-list:not(:first-child) {
   margin-left: 30px;
@@ -314,6 +323,9 @@ address {
 }
 .team-member:not(:first-child) {
   margin-left: 30px;
+}
+.team-info {
+  padding: 30px 32px 24px;
 }
 .clients-list:not(:first-child) {
   margin-left: 30px;
@@ -325,25 +337,21 @@ address {
 .social-link {
   display: flex;
 }
+.footer-container {
+  padding-top: 45px;
+  padding-bottom: 28px;
+  align-items: baseline;
+  justify-content: space-between;
+}
 .address-list {
   flex-direction: column;
   display: flex;
-  margin-bottom: 28px;
-}
-.footer {
-  display: flex;
-}
-.address-container .logo {
-  margin-top: 45px;
-  margin-bottom: 8px;
 }
 .subscribe-form {
-  margin: 57px 216px 50px 0;
   width: 570px;
 }
 .subscribe {
   width: 206px;
-  margin: 57px 94px 56px 69px;
 }
 /* portfolio */
 .projects-scroll {
@@ -368,6 +376,9 @@ address {
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.project-discription {
+  padding: 20px 24px;
 }
 .mail {
   margin-right: 30px;
