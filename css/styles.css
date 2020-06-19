@@ -91,7 +91,8 @@ header {
 .header {
   background-image: url(../img/Header.jpg);
   color: var(--effect-color);
-  padding: 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   align-items: center;
 }
 .button {
@@ -120,6 +121,7 @@ header {
   line-height: 1.17;
   text-align: center;
 }
+
 .function {
   visibility: hidden;
   line-height: 0;
@@ -150,6 +152,10 @@ header {
 }
 .team {
   background: #f5f4fa;
+}
+.team,
+.our-clients {
+  padding-top: 94px;
 }
 .profession {
   font-size: 16px;
@@ -284,6 +290,9 @@ address {
 .site-nav-item {
   line-height: 80px;
 }
+.site-nav-contact-item {
+  margin-right: 30px;
+}
 .top-icon {
   margin-right: 85px;
 }
@@ -307,7 +316,7 @@ address {
 .features-list:not(:first-child) {
   margin-left: 30px;
 }
-.features-item {
+.features-list {
   width: 270px;
 }
 .function-logo {
@@ -343,15 +352,18 @@ address {
   align-items: baseline;
   justify-content: space-between;
 }
+.address-container {
+  width: calc((100% - 60px) / 4);
+}
 .address-list {
   flex-direction: column;
   display: flex;
 }
 .subscribe-form {
-  width: 570px;
+  width: calc((100% - 60px) / 2);
 }
 .subscribe {
-  width: 206px;
+  width: calc((100% - 60px) / 4);
 }
 /* portfolio */
 .projects-scroll {
@@ -363,9 +375,6 @@ address {
 .project-list {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .project-list:nth-child(3n) {
   margin-right: 0;
@@ -379,9 +388,6 @@ address {
 }
 .project-discription {
   padding: 20px 24px;
-}
-.mail {
-  margin-right: 30px;
 }
 .button-list {
   display: flex;
