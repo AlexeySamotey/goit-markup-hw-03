@@ -253,6 +253,10 @@ address {
   background: rgba(33, 150, 243, 0.9);
   color: #ffffff;
 }
+.project-text:hover,
+.project-text:focus {
+  background: var(--accent-color);
+}
 /* hw 3 */
 .header h1 {
   margin-top: 0;
