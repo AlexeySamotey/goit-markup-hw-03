@@ -403,7 +403,7 @@ address {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
-  margin-left: 280px;
+  justify-content: center;
 }
 .btn:not(:first-child) {
   margin-left: 8px;
