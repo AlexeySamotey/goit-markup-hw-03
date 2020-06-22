@@ -257,6 +257,9 @@ address {
 .project-text:focus {
   background: var(--accent-color);
 }
+/* .project-text {
+  padding: 63px 24px;
+} */
 /* hw 3 */
 .header h1 {
   margin-top: 0;
